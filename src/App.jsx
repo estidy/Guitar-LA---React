@@ -10,7 +10,7 @@ const initialCart = ()=>{
     return localStorageCart ? JSON.parse(localStorageCart) : []
 }
 
-const [data, setData] = useState(db)
+const [data] = useState(db)
 const [cart, setCart] = useState(initialCart)
 const MIN_ITEMS = 1
 const MAX_ITEMS = 5

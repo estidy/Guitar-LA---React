@@ -1,4 +1,4 @@
-function Guitar ({guitar}){
+function Guitar ({guitar, addToCart}){
   const {name,image, description, price} = guitar
 return(
     <div className="col-md-6 col-lg-4 my-4 row align-items-center">
@@ -12,6 +12,7 @@ return(
             <button 
                 type="button"
                 className="btn btn-dark w-100"
+                onClick={()=>addToCart(guitar)}
             >Agregar al Carrito</button>
         </div>
     </div>

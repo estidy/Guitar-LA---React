@@ -1,8 +1,14 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GuitarShop - Lista de Guitarras con Carrito de Compras
 
-Currently, two official plugins are available:
+GuitarShop es una aplicación web construida en React que muestra una lista de guitarras disponibles para la venta. Los usuarios pueden agregar guitarras a un carrito de compras interactivo, que cuenta con las siguientes funcionalidades:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Incrementar y decrementar la cantidad de un producto en el carrito.
+    Eliminar productos del carrito.
+    Calcular automáticamente el precio total de los productos agregados.
+    Persistencia de datos en localStorage, asegurando que el carrito se mantenga incluso después de recargar la página.
+
+Para la gestión del estado y la reactividad de la aplicación, se han utilizado los hooks de React useState y useEffect, garantizando una experiencia fluida y dinámica para el usuario.
+
+Este proyecto es ideal para aprender y practicar conceptos clave de React, como el manejo del estado, el uso de efectos secundarios y la implementación de almacenamiento local.

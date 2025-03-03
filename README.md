@@ -12,4 +12,4 @@ GuitarShop es una aplicación web construida en React que muestra una lista de g
 Para la gestión del estado y la reactividad de la aplicación, se han utilizado los hooks de React useState y useEffect, garantizando una experiencia fluida y dinámica para el usuario.
 
 Este proyecto es ideal para aprender y practicar conceptos clave de React, como el manejo del estado, el uso de efectos secundarios y la implementación de almacenamiento local.
-<!-- Uploading "GuitarLA.mp4"... -->
+![Imagen del Proyecto](GuitarLA.png)

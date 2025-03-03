@@ -80,7 +80,7 @@ function Header({cart, removeFromCart, decreaseQuantity, increaseQuantity, clear
                                 </table>
                         
                                 <p className="text-end">Total pagar: <span 
-                                className="fw-bold">{cartTotal}</span></p>
+                                className="fw-bold">${cartTotal}</span></p>
                             </>
                         )}        
                         <button 

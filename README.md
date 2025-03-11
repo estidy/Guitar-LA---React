@@ -13,6 +13,6 @@ Para la gestión del estado y la reactividad de la aplicación, se han utilizado
 
 Este proyecto es ideal para aprender y practicar conceptos clave de React, como el manejo del estado, el uso de efectos secundarios y la implementación de almacenamiento local.
 
-[Link del Proyecto: ](http://shopguitar-la.netlify.app/)
+[Link del Proyecto](http://shopguitar-la.netlify.app/)
 
 [![Imagen del Proyecto](GuitarLA.png)](GuitarLA.mp4)
